@@ -4,14 +4,16 @@
   "description": "API project for freeCodeCamp",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
+    "config": "^3.2.2",
     "cors": "^2.8.1",
     "express": "^5.0.0-alpha.2",
-    "mongodb": "^2.2.36",
-    "mongoose": "^4.13.19"
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.9"
   },
   "engines": {
     "node": "4.4.5"
@@ -25,5 +27,8 @@
     "hyperdev",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
